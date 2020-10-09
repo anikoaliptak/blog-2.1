@@ -1,15 +1,10 @@
 # blog-2.1
-===================
 
-GENERAL INFORMATION
-===================
+GENERAL INFORMATion
 
   This is a possible version of a blog home page.
 
-=======================
-
 DEVELOPMENT INFORMATION
-=======================
 
   First I created a HTML file and a folder for the CSS files.
   The CSS rules are divided into 4 parts in the css folder.
