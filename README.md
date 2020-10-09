@@ -1,11 +1,13 @@
 # blog-2.1
 ===================
+
 GENERAL INFORMATION
 ===================
 
   This is a possible version of a blog home page.
 
 =======================
+
 DEVELOPMENT INFORMATION
 =======================
 
