@@ -1,6 +1,6 @@
 # blog-2.1
 
-GENERAL INFORMATion
+GENERAL INFORMATION
 
   This is a possible version of a blog home page.
 
