@@ -1,0 +1,42 @@
+/*
+*Overview
+*
+*This project is separeted to the following style sheets:
+*
+*Basic.css.............The global CSS rules.
+*Layout.css............The CSS rules of the layout and the different screen.
+*Component.css.........The CSS rules for the components that build up the page.
+*/
+
+/*
+*Content
+*
+*Variables............Globally available variable.
+*General styles.......General styles for the whole page.
+*/
+
+/* ==========================
+   VARIABLES
+   ========================== */
+
+:root {
+  --primary-bg-color:        rgba(244,243,245,1)  /* light-gray */
+  --secondary-bg-color:      rgba(255,255,255,1)  /* white */
+  --dark-ctn-color:          rgba(33,17,56,1)     /* dark-blue */
+  --light-ctn-color:         rgba(98,0,234,1)     /* king-blue */
+  --font-color:              rgba(178,172,186,1)  /* gray */
+}
+
+
+/* ==========================
+   GENERAL STYLES
+   ========================== */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
