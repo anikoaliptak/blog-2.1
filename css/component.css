@@ -1,0 +1,108 @@
+/* =========================
+   BUTTONS
+   ========================= */
+
+.button {
+  width:          11.429rem;
+  padding:        .928rem 0;
+  border:         2px solid;
+  border-radius:  1.786rem;
+  text-align:     center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   HEADER STYLES
+   ========================= */
+
+.header {
+  background-color:          var(--light-ctn-color);
+  display:                   flex;
+  justify-content:           center;
+  align-items:               center;
+  height:                    60px;
+}
+
+
+
+
+
+/* ========================
+   SECTION NAV STYLES
+   ======================== */
+
+.section__nav {
+  background-color:          var(--secondary-bg-color);
+  text-align:                center;
+}
+
+.nav__btn {
+  color:                     var(--light-ctn-color);
+  padding:                   1rem;
+}
+
+
+@media (min-width: 822px) {
+  .nav__btn:hover {
+    padding-bottom:          calc(1rem - 5px);
+    border-bottom:           5px solid var(--light-ctn-color);
+    transition:              border-bottom .3s linear;
+  }
+}
+
+@media (max-width: 821px) {
+	.nav__btn {
+		border-bottom:           .5px dashed var(--light-ctn-color)
+	}
+}
+
+
+/* ========================
+   CONTENT STYLES
+   ======================== */
+
+.content {
+	display: flex;
+	flex-direction:            row;
+	flex-basis:                69.4vw;
+}
+
+.main {
+  margin:                    1.07rem;
+  flex-basis:                45.625vw;
+}
+
+.sidebar {
+  margin:                    1.07rem;
+  flex-basis:                21.875vw;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction:          column;
+  }
+	.main {
+		width:                   90vw;
+	}
+	.sidebar {
+		width:                   90vw;
+	}
+}
+
+
+
+
+
+
+
+
+

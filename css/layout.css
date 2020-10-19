@@ -1,0 +1,69 @@
+/*
+* Contents
+*
+*Layout
+*  - I used the CSS grid to layout for the components of page
+*
+*Components.............Rules for the container and items
+*Modifiers............Media queries for the layout
+*
+*/
+
+
+
+
+
+/*=============================
+  COMPONENTS
+  ============================= */
+
+.header {
+  grid-area: header;
+}
+
+
+.section__nav {
+  grid-area: section-nav;
+  align-self: center stretch;
+}
+
+
+.content {
+  grid-area: content;
+	justify-content: center;
+}
+
+
+.footer {
+  grid-area: footer;
+}
+
+
+.page {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "section-nav"
+    "content"
+    "footer"
+}
+
+/*============================
+  MODIFIERS
+  ============================ */
+
+@media (min-width: 822px) {
+  .nav__btn {
+    display:                 inline-block;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
