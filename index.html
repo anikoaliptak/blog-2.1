@@ -24,14 +24,14 @@
        
        <div class="section__nav">
          <ul class="nav">
-           <li class="nav__btn"><a href="#">Business</a></li>         
-           <li class="nav__btn"><a href="#">Culture</a></li>         
-           <li class="nav__btn"><a href="#">Design</a></li>         
-           <li class="nav__btn"><a href="#">Health</a></li>         
-           <li class="nav__btn"><a href="#">Politics</a></li>         
-           <li class="nav__btn"><a href="#">Science</a></li>         
-           <li class="nav__btn"><a href="#">Trawel</a></li>         
-           <li class="nav__btn"><a href="#">World</a></li>               
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Business</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Culture</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Design</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Health</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Politics</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Science</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">Trawel</a></li>         
+           <li class="nav__btn"><a class="nav__btn-link" href="#">World</a></li>             
          </ul>
        </div>
      
@@ -45,7 +45,7 @@
            <h6>Apryl 4,2020 / By Amy / 0 comments</h6>
            <h2>Featured blog post</h2>
            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.</p>
-           <a href="#">Read more</a>
+           <a class="button button-secondary-hollow" href="#">Read more</a>
          </div>
          
          <div class="category__card-wrapper">
@@ -67,22 +67,24 @@
            <h6>March 3, 2020 / by Marc / 8 Comments</h6>
            <h2>Sample blog post</h2>
            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-           <a href="#">Read more</a>
+           <a  class="button button-primary-hollow" href="#">Read more</a>
          </div>
-         
+				 
+				 <div>
+				   <img class="blog__post-img" src="pics/sean-o-KMn4VEeEPR8-unsplash.jpg" alt="sea">
+				 </div>
          <div class="blog__post blog__post-w-img">
-           <img src="pics/sean-o-KMn4VEeEPR8-unsplash.jpg" alt="sea">
            <h6>Febrary 2, 2020 / by Jacob / 14 Comments</h6>
            <h2>Blog post with image</h2>
            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.</p>
-           <a>Read more</a>
+           <a  class="button button-primary-hollow" href="#">Read more</a>
          </div>
          
          <div class="blog__post blog__post-another">
            <h6>January 1, 2020 / by Chris / 7 Comments</h6>
            <h2>Another blog post</h2>
            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-           <a href="#">Read more</a>
+           <a  class="button button-primary-hollow" href="#">Read more</a>
          </div>
          
        </div> <!-- /main -->
@@ -97,13 +99,13 @@
              <h6 class="sidebar__element-header-title">Latest news</h6>
            </div>
            <div class="category__card sidebar__element-category-card">
-             <img class="category__card-img" src="pics/younes-barri-zsHPnX2zstw-unsplash.jpg" alt="#">
+             <img class="category__card-img" src="pics/younes-barri-zsHPnX2zstw-unsplash.jpg" alt="design">
 						 <div class="category__card-text-wrapp">
                <h6 class="category__card-name">Design</h6>
 							 <p class="category__card-text">Lorem ipsum dolor sit amet, consetetur sadipscing</p></div>
            </div>
            <div class="category__card sidebar__element-category-card" >
-             <img class="category__card-img" src="pics/boxed-water-is-better-cXJCpV2Jv1Y-unsplash.jpg">
+             <img class="category__card-img" src="pics/boxed-water-is-better-cXJCpV2Jv1Y-unsplash.jpg" alt="health">
 						 <div class="category__card-text-wrapp">
                <h6 class="category__card-name">Health</h6>
 							 <p class="category__card-text">Lorem ipsum dolor sit amet, consetetur sadipscing</p></div>
@@ -111,11 +113,11 @@
            <div class="category__card sidebar__element-category-card">
              <img class="category__card-img" src="pics/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg" alt="politics">
 						 <div class="category__card-text-wrapp">
-               <h6 class="catergory__card-name">Politics</h6>
+               <h6 class="category__card-name">Politics</h6>
 							 <p class="category__card-text">Lorem ipsum dolor sit amet, consetetur sadipscing</p></div>
            </div>
            <div class="sidebar__element-footer">
-            <a class="sidebar__element-link" href="#"></a>
+            <a class="sidebar__element-footer-link" href="#">View all news</a>
            </div>
          </div>
           
@@ -143,7 +145,7 @@
 								<p class="category__card-text">Lorem ipsum dolor sit amet, consetetur sadipscing</p></div>
             </div>
             <div class="sidebar__element-footer">
-              <a class="sidebar__elemedt-link" href="#">View all news</a>
+              <a class="sidebar__element-footer-link" href="#">View all news</a>
             </div>
           </div> 
          
@@ -154,33 +156,33 @@
            <div>
              <ul class="sidebar__element-list">
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Business</a>
+                 <a class="sidebar__element-category-link" href="#">Business</a>
                </li>
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Culture</a>
+                 <a class="sidebar__element-category-link" href="#">Culture</a>
                </li>
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Design</a>
+                 <a class="sidebar__element-category-link" href="#">Design</a>
                </li>
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Health</a>
+                 <a class="sidebar__element-category-link" href="#">Health</a>
                </li >
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Politics</a>
+                 <a class="sidebar__element-category-link" href="#">Politics</a>
                </li>
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Science</a>
+                 <a class="sidebar__element-category-link" href="#">Science</a>
                </li>
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">Travel</a>
+                 <a class="sidebar__element-category-link" href="#">Travel</a>
                </li>
                <li class="sidebar__element-list-item">
-                 <a class="sidebar__element-categori-link" href="#">World</a>
+                 <a class="sidebar__element-category-link" href="#">World</a>
                </li>
              </ul>
            </div>
            <div class="sidebar__element-footer">
-              <a class="sidebar__elemedt-link" href="#">See all</a>
+              <a class="sidebar__element-footer-link" href="#">See all</a>
             </div>
          </div>
      
@@ -192,8 +194,8 @@
      <div class="footer">
         <p class="footer__copyright">
       © 2020 Copyright
-      <span class="footer__brand-name">Brand Name</span> / Design by
-      <span class="footer__student-name">Student Name</span>
+      <span class="footer__brand-name">Nikolart Ltd.</span> / Design by
+      <span class="footer__student-name">Aniko A. Liptak</span>
     </p>
      </div>
      
