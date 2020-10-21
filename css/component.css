@@ -1,5 +1,5 @@
 /* =========================
-   BUTTONS
+   BUTTONS STYLE
    ========================= */
 
 .button {
@@ -12,16 +12,49 @@
 
 
 
-.categori__card-img {
-	width:                     8.571rem;
-  height:                    8.571rem;
+
+
+/* =========================
+   CATEGORY CARD STYLE
+   ========================= */
+
+.category__card-img {
+	width:                     7.143rem;
+  height:                    7.143rem;
   margin-right:              1.429rem;
   border-radius:             .714rem;
-	float:                     left;
 }
 
+.category__card-wrapper {
+  display:                   flex;
+	flex-direction:            row;
+	
+}
 
+.category__card {
+	display:                   flex;
+	flex-direction:            row;
+	flex-wrap:                 nowrap;
+  padding:                   1.429rem;
+  border-radius:             1.071rem;	
+	background-color:          var(--secondary-bg-color);
+}
 
+.category__card-text {
+	margin-bottom:             0;
+}
+
+.category__card-business {
+	margin:                    0 1.071rem 2.143rem 0;
+}
+
+.category__card-culture {
+	margin:                    0 0 2.143rem 0;
+}
+
+.sidebar__element-category-card {
+	border-radius:             0;
+}
 
 
 
@@ -34,8 +67,6 @@
   background-color:          var(--light-ctn-color);
   display:                   flex;
   justify-content:           center;
-  align-items:               center;
-  height:                    60px;
 }
 
 
@@ -79,55 +110,57 @@
 .content {
 	display:                   flex;
 	flex-direction:            row;
-	flex-basis:                69.4vw;
-	margin:                    40px 0;
+	flex-basis:                76.9vw;
+	margin:                    2.857rem 0;
 }
 
 .main {
 	display:                   flex;
 	flex-direction:            column;
   flex-basis:                45.625vw;
-	margin-right:              15px;
+	margin-right:              1.071rem;
 }
 
 .sidebar {
-  flex-basis:                21.875vw;
-	margin-left:               15px;
+	display:                   flex;
+	flex-direction:            column;
+  flex-basis:                22.344vw;
+	margin-left:               1.071rem;
 }
 
 @media (max-width: 768px) {
   .content {
     flex-direction:          column;
   }
-	.main {
-		width:                   90vw;
-	}
+	.main,
 	.sidebar {
-		width:                   90vw;
+	margin:                    0 2.14rem;
 	}
 }
 
-.featured {
-	height:                    38.89vh;
+
+
+
+
+/* ========================
+   BLOG POST STYLES
+   ======================== */
+
+.blog__post {
+	background-color:          var(--secondary-bg-color);
+  padding:                   4.286rem 4.286rem 3.751rem 4.286rem;
+	margin-bottom:             30px;
+	border-radius:             1.071rem;
+}
+
+.blog__post-featured {
 	background-image:
 		url(../pics/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
-	border-radius:             15px;
+	background-size:           cover;
 	color:                     var(--secondary-bg-color);
-	padding:                   40px;
-	margin-bottom:             30px;
 }
 
 
-.categori__card-wrapper {
-  display:                   flex;
-	flex-direction:            row;
-	
-}
 
-.categori__card {
-  padding:                   1.429rem;
-  border-radius:             1.071rem;	
-	background-color:          var(--secondary-bg-color);
-}
 
 
