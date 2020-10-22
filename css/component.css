@@ -1,3 +1,33 @@
+/* OVERVIEW
+*
+*This file refers to the internal layout of the components that make up the
+page and style, color, size of the elements.
+*/
+
+/*
+*CONTENTS
+*
+*Buttons
+*
+*Category cards
+*
+*Header
+*
+*Nav section
+*
+*Content - Main and Sidebar
+*
+*Blog posts
+*
+*Sidebar elements
+*
+*Footer
+*/
+
+
+
+
+
 /* =========================
    BUTTONS STYLE
    ========================= */
@@ -108,11 +138,14 @@
 .section__nav {
   background-color:          var(--secondary-bg-color);
   text-align:                center;
-	color:                     var(--dark-ctn-color);
 }
 
 .nav__btn {
   padding:                   1rem;
+}
+
+.nav__btn-link {
+	color:                     var(--dark-ctn-color);
 }
 
 .nav__btn-link:hover {
@@ -160,6 +193,7 @@
 	margin-left:               1.071rem;
 }
 
+
 @media (max-width: 768px) {
   .content {
     flex-direction:          column;
@@ -167,6 +201,9 @@
 	.main,
 	.sidebar {
 	margin:                    0 2.143rem;
+	}
+	.category__card-wrapper {
+		flex-direction:          column;
 	}
 }
 
@@ -202,12 +239,16 @@
 	border-radius:             0 0 1.071rem 1.071rem;
 }
 
+.blog__post-data {
+	color:                     var(--btn-text-color);
+}
+
 
 
 
 
 /* ========================
-   SIDEBAR ELEMENT STYLES
+   SIDEBAR ELEMENTS STYLES
    ======================== */
 
 .sidebar__element {
@@ -249,14 +290,12 @@
 	border-bottom:             0;
 }
 
-.sidebar__element-category-link {
-	color:                     var(--btn-text-color);
-}
-
+.sidebar__element-category-link,
 .sidebar__element-footer-link {
 	color:                     var(--btn-text-color);
 }
 
+.sidebar__element-category-link:hover,
 .sidebar__element-footer-link:hover {
 	color:                     var(--light-ctn-color);
 }
@@ -288,5 +327,3 @@
 .footer__student-name {
 	color:                     var(--light-ctn-color);
 }
-
-

@@ -1,5 +1,5 @@
 /*
-* Contents
+* CONTENTS
 *
 *Layout
 *  - I used the CSS grid to layout for the components of page
@@ -24,7 +24,7 @@
 
 .section__nav {
   grid-area: section-nav;
-  align-self: center stretch;
+  align-self: center;
 }
 
 
@@ -49,6 +49,10 @@
     "footer"
 }
 
+
+
+
+
 /*============================
   MODIFIERS
   ============================ */
@@ -57,14 +61,4 @@
   .nav__btn {
     display:                 inline-block;
 	}
-	
-	
-
-
-
-
-
-
-
-
-
+}
