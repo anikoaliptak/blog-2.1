@@ -33,7 +33,7 @@ page and style, color, size of the elements.
    ========================= */
 
 .button {
-	display:                   inline-block;
+  display:                   inline-block;
   width:                     11.429rem;
   padding:                   .928rem 0;
   border:                    2px solid;
@@ -42,25 +42,25 @@ page and style, color, size of the elements.
 }
 
 .button-primary-hollow {
-	border-color:              var(--light-ctn-color);
-	color:                     var(--light-ctn-color);
-	background-color:          transparent;
+  border-color:              var(--light-ctn-color);
+  color:                     var(--light-ctn-color);
+  background-color:          transparent;
 }
 
 .button-primary-hollow:hover {
-	color:                     var(--secondary-bg-color);
-	background-color:          var(--light-ctn-color);
+  color:                     var(--secondary-bg-color);
+  background-color:          var(--light-ctn-color);
 }
 
 .button-secondary-hollow {
-	border-color:              var(--secondary-bg-color);
-	color:                     var(--secondary-bg-color);
-	background-color:          transparent;
+  border-color:              var(--secondary-bg-color);
+  color:                     var(--secondary-bg-color);
+  background-color:          transparent;
 }
 
 .button-secondary-hollow:hover {
-	background-color:          var(--secondary-bg-color);
-	color:                     var(--dark-ctn-color);
+  background-color:          var(--secondary-bg-color);
+  color:                     var(--dark-ctn-color);
 }
 
 
@@ -73,7 +73,7 @@ page and style, color, size of the elements.
    ========================= */
 
 .category__card-img {
-	width:                     7.143rem;
+  width:                     7.143rem;
   height:                    7.143rem;
   margin-right:              1.429rem;
   border-radius:             .714rem;
@@ -81,37 +81,37 @@ page and style, color, size of the elements.
 
 .category__card-wrapper {
   display:                   flex;
-	flex-direction:            row;
+  flex-direction:            row;
 	
 }
 
 .category__card {
-	display:                   flex;
-	flex-direction:            row;
-	flex-wrap:                 nowrap;
+  display:                   flex;
+  flex-direction:            row;
+  flex-wrap:                 nowrap;
   padding:                   1.429rem;
   border-radius:             1.071rem;	
-	background-color:          var(--secondary-bg-color);
+  background-color:          var(--secondary-bg-color);
 }
 
 .category__card-name {
-	color:                     var(--light-ctn-color);
+  color:                     var(--light-ctn-color);
 }
 
 .category__card-text {
-	margin-bottom:             0;
+  margin-bottom:             0;
 }
 
 .category__card-business {
-	margin:                    0 1.071rem 2.143rem 0;
+  margin:                    0 1.071rem 2.143rem 0;
 }
 
 .category__card-culture {
-	margin:                    0 0 2.143rem 0;
+  margin:                    0 0 2.143rem 0;
 }
 
 .sidebar__element-category-card {
-	border-radius:             0;
+  border-radius:             0;
 }
 
 
@@ -145,11 +145,11 @@ page and style, color, size of the elements.
 }
 
 .nav__btn-link {
-	color:                     var(--dark-ctn-color);
+  color:                     var(--dark-ctn-color);
 }
 
 .nav__btn-link:hover {
-	color:                     var(--light-ctn-color);
+  color:                     var(--light-ctn-color);
 }
 
 
@@ -163,7 +163,7 @@ page and style, color, size of the elements.
 
 @media (max-width: 821px) {
 	.nav__btn {
-		border-bottom:           .5px dashed var(--light-ctn-color)
+	  border-bottom:           .5px dashed var(--light-ctn-color)
 	}
 }
 
@@ -173,24 +173,24 @@ page and style, color, size of the elements.
    ======================== */
 
 .content {
-	display:                   flex;
-	flex-direction:            row;
-	flex-basis:                76.9vw;
-	margin:                    2.857rem 0;
+  display:                   flex;
+  flex-direction:            row;
+  flex-basis:                76.9vw;
+  margin:                    2.857rem 0;
 }
 
 .main {
-	display:                   flex;
-	flex-direction:            column;
+  display:                   flex;
+  flex-direction:            column;
   flex-basis:                45.625vw;
-	margin-right:              1.071rem;
+  margin-right:              1.071rem;
 }
 
 .sidebar {
-	display:                   flex;
-	flex-direction:            column;
+  display:                   flex;
+  flex-direction:            column;
   flex-basis:                22.344vw;
-	margin-left:               1.071rem;
+  margin-left:               1.071rem;
 }
 
 
@@ -198,12 +198,12 @@ page and style, color, size of the elements.
   .content {
     flex-direction:          column;
   }
-	.main,
-	.sidebar {
-	margin:                    0 2.143rem;
+  .main,
+  .sidebar {
+    margin:                    0 2.143rem;
 	}
-	.category__card-wrapper {
-		flex-direction:          column;
+  .category__card-wrapper {
+    flex-direction:          column;
 	}
 }
 
@@ -216,31 +216,31 @@ page and style, color, size of the elements.
    ======================== */
 
 .blog__post {
-	background-color:          var(--secondary-bg-color);
+  background-color:          var(--secondary-bg-color);
   padding:                   4.286rem 4.286rem 3.751rem 4.286rem;
-	margin-bottom:             2.143rem;
-	border-radius:             1.071rem;
+  margin-bottom:             2.143rem;
+  border-radius:             1.071rem;
 }
 
 .blog__post-featured {
-	background-image:
-		url(../pics/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
-	background-size:           cover;
-	color:                     var(--secondary-bg-color);
+  background-image:
+	url(../pics/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+  background-size:           cover;
+  color:                     var(--secondary-bg-color);
 }
 
 .blog__post-img {
-	width:                     100%;
-	height:                    300px;
-	border-radius:             1.071rem 1.071rem 0 0;
+  width:                     100%;
+  height:                    300px;
+  border-radius:             1.071rem 1.071rem 0 0;
 }
 
 .blog__post-w-img {
-	border-radius:             0 0 1.071rem 1.071rem;
+  border-radius:             0 0 1.071rem 1.071rem;
 }
 
 .blog__post-data {
-	color:                     var(--btn-text-color);
+  color:                     var(--btn-text-color);
 }
 
 
@@ -252,52 +252,52 @@ page and style, color, size of the elements.
    ======================== */
 
 .sidebar__element {
-	margin-bottom:             2.143rem;
+  margin-bottom:             2.143rem;
 }
 
 .sidebar__element-header {
-	background-color:          var(--light-ctn-color);
-	color:                     var(--secondary-bg-color);
-	text-align:                center;
-	padding:                   1.607rem;
-	border-radius:             1.071rem 1.071rem 0 0;
+  background-color:          var(--light-ctn-color);
+  color:                     var(--secondary-bg-color);
+  text-align:                center;
+  padding:                   1.607rem;
+  border-radius:             1.071rem 1.071rem 0 0;
 }
 
 .sidebar__element-header-title {
-	margin-bottom:             0;
+  margin-bottom:             0;
 }
 
 .sidebar__element-footer {
-	background-color:          var(--secondary-bg-color);
-	text-align:                center;
-	padding:                   1.607rem;
-	border-radius:             0 0 1.071rem 1.071rem;
-	border-top:                .036rem solid var(--light-ctn-color);
+  background-color:          var(--secondary-bg-color);
+  text-align:                center;
+  padding:                   1.607rem;
+  border-radius:             0 0 1.071rem 1.071rem;
+  border-top:                .036rem solid var(--light-ctn-color);
 }
 
 .sidebar__element-link:hover {
-	color:                     var(--light-ctn-color);
+  color:                     var(--light-ctn-color);
 }
 
 .sidebar__element-list-item {
-	padding:                   1.214rem 2.143rem 1.286rem 2.143rem;
-	background-color:          var(--secondary-bg-color);
-	border-bottom:             .036rem solid var(--btn-text-color);
+  padding:                   1.214rem 2.143rem 1.286rem 2.143rem;
+  background-color:          var(--secondary-bg-color);
+  border-bottom:             .036rem solid var(--btn-text-color);
 	
 }
 
 .sidebar__element-list-item:last-child {
-	border-bottom:             0;
+  border-bottom:             0;
 }
 
 .sidebar__element-category-link,
 .sidebar__element-footer-link {
-	color:                     var(--btn-text-color);
+  color:                     var(--btn-text-color);
 }
 
 .sidebar__element-category-link:hover,
 .sidebar__element-footer-link:hover {
-	color:                     var(--light-ctn-color);
+  color:                     var(--light-ctn-color);
 }
 
 
@@ -309,21 +309,21 @@ page and style, color, size of the elements.
    ======================== */
 
 .footer {
-	text-align:                center;
-	padding:                   1.714rem;
-	background-color:          var(--dark-ctn-color);
+  text-align:                center;
+  padding:                   1.714rem;
+  background-color:          var(--dark-ctn-color);
 }
 
 .footer__copyright {
-	text-transform:            uppercase;
-	font-size:                 .857rem;
-	font-weight:               bold;
-	letter-spacing:            .171rem;
-	color:                     var(--btn-text-color);
-	margin-bottom:             0;
+  text-transform:            uppercase;
+  font-size:                 .857rem;
+  font-weight:               bold;
+  letter-spacing:            .171rem;
+  color:                     var(--btn-text-color);
+  margin-bottom:             0;
 }
 
 .footer__brand-name,
 .footer__student-name {
-	color:                     var(--light-ctn-color);
+  color:                     var(--light-ctn-color);
 }
